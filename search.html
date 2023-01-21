@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chan search engine</title>
+    <script src="https://kit.fontawesome.com/fcc77c2f19.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/all.css"></link>
+    <style>
+        body
+             { margin: 0; padding: 0; background-color: transparent;
+
+}        .container{
+            top: 42%; left: 50%; transform: translate(-50%,-50%);
+            position: absolute;
+        } 
+        .searchco{ display:flex; justify-items: flex-start; gap: 10px; margin-left: 30px; height: 100px;  color: rgb(122, 57, 57);  font-size: larger; font-style: italic;       align-items: center;}
+        .card{
+            display: flex;
+        }
+        #c{
+            width: 390px; 
+            padding: 10px; border-bottom: 1px solid white; border-color: black;border-radius: 12px;
+        } #a{
+            margin-top: 20px; margin-left: 160px; padding: 8px; background-color:white; border-radius: 12px; border-color: white;
+        cursor: pointer;}
+        form input[type="text"]:hover{
+             transition: 0.5s ease-in-out; box-shadow: inset 0px 0px 10px rgb(170, 241, 240);
+        } header{
+            display: flex;top: 0%; justify-items: flex-start; gap: 12px;
+        }
+       
+        form input[type="submit"]{ 
+            transition: 0.6s ease-in-out;
+        }
+        form input[type="submit"]:hover{ 
+            box-shadow: inset 200px 0px 0px dodgerblue;
+        }
+        footer{ width: 99.3%; margin-top: 40%; background-color: black; color: white; text-align: center; padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3><a href="https://mail.google.com"><i class="fa-regular fa-envelopes-bulk"></i></a>Gmail</h3>
+        <h3><a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>Youtube</h3>
+        <h3><a href="https://maps.google.com"><i class="fa-solid fa-map-location"></i></a>Maps</h3>
+        <h3 style="margin-left: 880px;"><a href="https://lens.google.com"><i class="fa-solid fa-camera-retro"></i></a>Lens</h3>
+        <h3 style="margin-left: 12px;"><a href="https://drive.google.com"><i class="fa-brands fa-google-drive"></i></a>Drive</h3>
+        <h3 style="margin-left: 12px;"><a href="https://chrome.google.com"><i class="fa-brands fa-chrome"></i></a>Chrome</h3>
+    </header>
+    <div class="container">
+        <div class="searchco"><h1>C</h1>
+        <h1 style="color: blue;">H</h1>
+        <h1 style="color: aqua;">A</h1>
+        <h1 style="color: blueviolet;">N</h1>
+        <h1 style="color: yellow;"> S</h1>
+        <h1 style="color: palevioletred;">E</h1>
+        <h1 style="color: orchid;">A</h1>
+        <h1 style="color: orange;">R</h1>
+        <h1 style="color: gray;">C</h1>
+        <h1 style="color: saddlebrown;">H</h1></div>
+        <div class="card">
+            <form action="https://google.com/search">
+                <input type="text" placeholder="search" name="q" id="c"><br>
+                <input type="submit" value="Chan search" id="a"><br>
+             </form>
+        </div>
+    </div>
+    <footer> All copy rights are recivied</footer>
+</body>
+</html>
